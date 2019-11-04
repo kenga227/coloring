@@ -1,0 +1,61 @@
+#mysvg {
+  width: 70%;
+  margin: 0 auto;
+}
+
+#colorpicker {
+  width: 100px;
+  height: 50px;
+  cursor: pointer;
+}
+
+g#yesfill {
+  cursor: cell;
+}
+
+body {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  text-align: center;
+}
+
+.colors {
+  width: 100px;
+  height: 50px;
+  margin: 0 0 20px 0;
+  cursor: pointer;
+}
+
+.active {
+  border: 2px solid black;
+}
+
+.palette {
+  display: grid;
+  justify-items: center;
+}
+
+.one {
+  background-color: #9b5729;
+}
+.two {
+  background-color: rgb(251, 232, 52);
+}
+.three {
+  background-color: rgb(170, 209, 238);
+}
+.four {
+  background-color: rgb(249, 206, 173);
+}
+.five {
+  background-color: #00afca;
+}
+.six {
+  background-color: rgb(221, 213, 200);
+}
+.seven {
+  background-color: rgb(174, 218, 221);
+}
+.eight {
+  background-color: rgb(153, 195, 49);
+}
